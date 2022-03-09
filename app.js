@@ -51,7 +51,6 @@ document.addEventListener("DOMContentLoaded", () => {
           alert("You have clicked the same image!");
         }
 
-        //
         if (cardsChosen[0] === cardsChosen[1]) {
           cards[optionOneId].setAttribute("src", "images/white.png");
           cards[optionTwoId].setAttribute("src", "images/white.png");
